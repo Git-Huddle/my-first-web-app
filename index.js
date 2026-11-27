@@ -21,5 +21,4 @@ convert('V', 5, number);
 convert('IV', 4, number);
 convert('I', 1, number);
 
-console.log(numeral);
-console.log(number);
+document.getElementById("output").innerText = numeral;
