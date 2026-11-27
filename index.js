@@ -1,5 +1,5 @@
-var number = prompt("Convert to roman numeral:"); //input range: 1-3999
 let numeral = "";
+var number = prompt("Convert to roman numeral:");
 
 function convert (symbol, value, int) {
     numeral += symbol.repeat(int / value);
