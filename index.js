@@ -1,4 +1,4 @@
-let numeral = "";
+var numeral = "";
 var number = prompt("Convert to roman numeral:");
 
 function convert (symbol, value, int) {
